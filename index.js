@@ -15,10 +15,10 @@ projectsTab.addEventListener('click', function () {
     tabText.textContent = "Projects";  
     
     // Update tab styles for active/inactive state
-    projectsTab.classList.add('text-white', 'bg-neutral-700');
+    projectsTab.classList.add('text-white', 'bg-[#393939]');
     projectsTab.classList.remove('text-neutral-500');
     
-    blogTab.classList.remove('text-white', 'bg-neutral-700');
+    blogTab.classList.remove('text-white', 'bg-[#393939]');
     blogTab.classList.add('text-neutral-500');
 });
 
@@ -32,9 +32,9 @@ blogTab.addEventListener('click', function () {
     tabText.textContent = "Blog";
     
     // Update tab styles for active/inactive state
-    blogTab.classList.add('text-white', 'bg-neutral-700');
+    blogTab.classList.add('text-white', 'bg-[#393939]');
     blogTab.classList.remove('text-neutral-500');
     
-    projectsTab.classList.remove('text-white', 'bg-neutral-700');
+    projectsTab.classList.remove('text-white', 'bg-[#393939]');
     projectsTab.classList.add('text-neutral-500');
 });
