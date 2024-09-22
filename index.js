@@ -15,10 +15,10 @@ projectsTab.addEventListener('click', function () {
     tabText.textContent = "Projects";  
     
     // Update tab styles for active/inactive state
-    projectsTab.classList.add('dark:text-white', 'dark:bg-[#393939]', 'bg-[#eaeaea]');
+    projectsTab.classList.add('dark:text-white', 'dark:bg-[#393939]', 'bg-[#dfdfdf]');
     projectsTab.classList.remove('text-neutral-500');
     
-    blogTab.classList.remove('dark:text-white', 'dark:bg-[#393939]', 'bg-[#eaeaea]');
+    blogTab.classList.remove('dark:text-white', 'dark:bg-[#393939]', 'bg-[#dfdfdf]');
     blogTab.classList.add('text-neutral-500');
 });
 
@@ -32,9 +32,9 @@ blogTab.addEventListener('click', function () {
     tabText.textContent = "Blog";
     
     // Update tab styles for active/inactive state
-    blogTab.classList.add('dark:text-white', 'dark:bg-[#393939]', 'bg-[#eaeaea]');
+    blogTab.classList.add('dark:text-white', 'dark:bg-[#393939]', 'bg-[#dfdfdf]');
     blogTab.classList.remove('text-neutral-500');
     
-    projectsTab.classList.remove('dark:text-white', 'dark:bg-[#393939]', 'bg-[#eaeaea]');
+    projectsTab.classList.remove('dark:text-white', 'dark:bg-[#393939]', 'bg-[#dfdfdf]');
     projectsTab.classList.add('text-neutral-500');
 });
