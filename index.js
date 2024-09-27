@@ -12,14 +12,14 @@ projectsTab.addEventListener('click', function () {
     blogContent.classList.add('hidden');
     
     // Update tab title
-    tabText.textContent = "Projects";  
+    tabText.textContent = "projects";  
     
     // Update tab styles for active/inactive state
-    projectsTab.classList.add('dark:text-white', 'dark:bg-[#393939]', 'bg-[#dfdfdf]');
-    projectsTab.classList.remove('text-neutral-500');
+    projectsTab.classList.add('text-white', 'bg-black');
+    projectsTab.classList.remove('text-black');
     
-    blogTab.classList.remove('dark:text-white', 'dark:bg-[#393939]', 'bg-[#dfdfdf]');
-    blogTab.classList.add('text-neutral-500');
+    blogTab.classList.remove('text-white', 'bg-black');
+    blogTab.classList.add('text-black');
 });
 
 // Event listener for Blog tab
@@ -29,12 +29,12 @@ blogTab.addEventListener('click', function () {
     projectsContent.classList.add('hidden');
     
     // Update tab title
-    tabText.textContent = "Blog";
+    tabText.textContent = "blog";
     
     // Update tab styles for active/inactive state
-    blogTab.classList.add('dark:text-white', 'dark:bg-[#393939]', 'bg-[#dfdfdf]');
-    blogTab.classList.remove('text-neutral-500');
+    blogTab.classList.add('text-white', 'bg-black');
+    blogTab.classList.remove('text-black');
     
-    projectsTab.classList.remove('dark:text-white', 'dark:bg-[#393939]', 'bg-[#dfdfdf]');
-    projectsTab.classList.add('text-neutral-500');
+    projectsTab.classList.remove('text-white', 'bg-black');
+    projectsTab.classList.add('text-black');
 });
