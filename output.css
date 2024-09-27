@@ -643,6 +643,18 @@ video {
   max-width: 39rem;
 }
 
+.max-w-\[48rem\] {
+  max-width: 48rem;
+}
+
+.max-w-\[40rem\] {
+  max-width: 40rem;
+}
+
+.max-w-\[38\.5rem\] {
+  max-width: 38.5rem;
+}
+
 .items-center {
   align-items: center;
 }
