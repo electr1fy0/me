@@ -1084,6 +1084,86 @@ video {
   background-color: rgb(163 163 163 / var(--tw-bg-opacity));
 }
 
+.selection\:bg-neutral-300 *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 212 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-neutral-300 *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 212 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-neutral-200 *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-neutral-200 *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-green-300 *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-green-300 *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#e1fbea\] *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 251 234 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#e1fbea\] *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 251 234 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#DCFCE7\] *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#DCFCE7\] *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#d2f5de\] *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 245 222 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#d2f5de\] *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 245 222 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#dcf1fc\] *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 241 252 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#dcf1fc\] *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 241 252 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#dce5fc\] *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 229 252 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#dce5fc\] *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 229 252 / var(--tw-bg-opacity));
+}
+
 .selection\:bg-neutral-400::-moz-selection {
   --tw-bg-opacity: 1;
   background-color: rgb(163 163 163 / var(--tw-bg-opacity));
@@ -1092,6 +1172,86 @@ video {
 .selection\:bg-neutral-400::selection {
   --tw-bg-opacity: 1;
   background-color: rgb(163 163 163 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-neutral-300::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 212 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-neutral-300::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 212 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-neutral-200::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-neutral-200::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-green-300::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-green-300::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#e1fbea\]::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 251 234 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#e1fbea\]::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(225 251 234 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#DCFCE7\]::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#DCFCE7\]::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#d2f5de\]::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 245 222 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#d2f5de\]::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 245 222 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#dcf1fc\]::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 241 252 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#dcf1fc\]::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 241 252 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#dce5fc\]::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 229 252 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-\[\#dce5fc\]::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 229 252 / var(--tw-bg-opacity));
 }
 
 .hover\:visible:hover {
