@@ -4,21 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Ayush Pandey</title>
     <link rel="stylesheet" href="output.css">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/png" href="images/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/icon.png">
 </head>
 
 
 <body
     class="font-inter max-w-96 bg-[#fafafa] text-neutral-700 mx-8  selection:bg-neutral-400 decoration-red-500 sm:mx-auto">
     <div class="my-20">
-        <h1 class="text-lg ">I'm Ayush Pandey. <br> <span class="text-neutral-600">Currently an
+        <h1 class="text-lg "><div class="flex gap-1.5">
+            I'm <div class="group"> <span class="cursor-pointer underline underline-offset-2 decoration-2 decoration-neutral-300">Ayush Pandey.</span> <br><img
+                src="images/me.jpg" alt="profile"
+                class="absolute w-16 opacity-0 invisible group-hover:block top-4 ml-14 transform -translate-x-1/2 group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out shadow-lg rounded-2xl"></div></div>
+            <span class="text-neutral-600">Currently an
             </span>engineering undergrad.</h1>
         <div class="mt-8 flex gap-3  text-neutral-600 font-light">
             <div><a class="flex items-center gap-2  " href="https://github.com/electr1fy0" target="_blank"
@@ -33,14 +39,15 @@
             </div>
         </div>
         <hr class=" border-neutral-300 border-[0.5px] my-10">
-     
+
         <!-- Tabbed Section -->
         <div class="flex justify-between items-center mt-10 ">
             <!-- Dynamic Title (Will change based on tab selection) -->
             <h1 id="tabText" class="font-instrument text-3xl tracking-wide">projects</h1>
 
             <!-- Navigation Tabs -->
-            <div class="flex items-center shadow-sm bg-white border-[#EBEBEB] border  rounded-full text-sm font-light font-jetbrains text-">
+            <div
+                class="flex items-center shadow-sm bg-white border-[#EBEBEB] border  rounded-full text-sm font-light font-jetbrains text-">
                 <button id="projectsTab"
                     class="tab-btn  py-1  px-3 border-b-2 border-transparent bg-black  m-1 text-white   rounded-full ">projects</button>
                 <button id="blogTab"
@@ -53,9 +60,11 @@
             <ul class="space-y-6">
                 <li>
                     <a href="https://github.com/electr1fy0/spotitunes" target="_blank">
-                        <p
-                            class=" text-neutral-800  "><span class="underline decoration-neutral-300 decoration-2 tracking-wide underline-offset-2">Spotitunes</span>
-                             <span class=" text-sm  p-1 font-inter tracking-wide bg-[#DCFCE7] rounded-sm text-[#14532D] ml-1">Currently Building</span>
+                        <p class=" text-neutral-800  "><span
+                                class="underline decoration-neutral-300 decoration-2 tracking-wide underline-offset-2">Spotitunes</span>
+                            <span
+                                class=" text-sm  p-1 font-inter tracking-wide bg-[#DCFCE7] rounded-sm text-[#14532D] ml-1">Currently
+                                Building</span>
                         </p>
                     </a>
                     <p class=" text-[#888888] font-light mt-1">Track link converter across streaming
@@ -63,17 +72,18 @@
                 </li>
                 <li>
                     <a href="https://thisisayush.vercel.app/projects/gpt-bot.html">
-                        <p
-                            class="text-neutral-800"><span class="underline decoration-neutral-300 decoration-2 tracking-wide underline-offset-2">Gemmy</span>
-                            </p>
+                        <p class="text-neutral-800"><span
+                                class="underline decoration-neutral-300 decoration-2 tracking-wide underline-offset-2">Gemmy</span>
+                        </p>
                     </a>
                     <p class=" text-[#888888] font-light mt-1">Telegram bot using Gemini API</p>
                 </li>
                 <li>
                     <a href="https://thisisayush.vercel.app/projects/localsend-redesign.html">
-                        <p
-                            class="text-neutral-800"><span class="underline decoration-neutral-300 decoration-2 tracking-wide underline-offset-2">Localsend Redesign</span>
-                            </p>
+                        <p class="text-neutral-800"><span
+                                class="underline decoration-neutral-300 decoration-2 tracking-wide underline-offset-2">Localsend
+                                Redesign</span>
+                        </p>
                     </a>
                     <p class=" text-[#888888] font-light mt-1">Redesigning Localsend based on MD3</p>
                 </li>
@@ -100,8 +110,7 @@
                     <div class="flex justify-between items-center">
                         <div>
                             <a href="second-brain.html">
-                                <p
-                                    class=" hover:underline hover:underline-offset-4 decoration-neutral-400 ">
+                                <p class=" hover:underline hover:underline-offset-4 decoration-neutral-400 ">
                                     Second Brain</p>
                             </a>
                         </div>
